@@ -65,8 +65,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Burger.cs" />
-    <Compile Include="Fries.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderView.xaml.cs">
       <DependentUpon>OrderView.xaml</DependentUpon>
