@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Sodas
+namespace Fast_Food
 {
-    public bool Drinkable { get; set; }
-
-
-	public Sodas()
-	{
-        Drinkable = true;
+    class Sodas
+    {
+    public bool DrinkAble { get; set; }
+    public Sodas()
+    {
+            DrinkAble = true;
+    }
     }
 }

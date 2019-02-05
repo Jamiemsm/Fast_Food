@@ -59,6 +59,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sodas.cs" />
     <Page Include="OrderView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -66,8 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Burger.cs" />
-	<Compile Include="sodas.cs" />
-	<Compile Include="Fries.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderView.xaml.cs">
       <DependentUpon>OrderView.xaml</DependentUpon>
