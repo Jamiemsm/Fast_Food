@@ -10,19 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Fast_Food
 {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
-	public partial class MainWindow : Window
-	{
-		public MainWindow()
-		{
-			InitializeComponent();
-		}
-	}
+    /// <summary>
+    /// Interaction logic for OrderView.xaml
+    /// </summary>
+    public partial class OrderView : Window
+    {
+        public OrderView()
+        {
+            InitializeComponent();
+        }
+
+        private void Btn_MakeOrder(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
 }
