@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fast_Food
 {
-	class Fries
+	class Fries : Product
 	{
 		private string potatoes;
 
