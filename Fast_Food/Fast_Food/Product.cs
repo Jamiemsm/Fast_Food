@@ -8,7 +8,7 @@ namespace Fast_Food
 {
 	class Product
 	{
-		string hej = "Christian";
+		string hej = "Christian2";
 
 		private string name;
 
