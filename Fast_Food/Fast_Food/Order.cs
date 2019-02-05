@@ -17,9 +17,9 @@ namespace Fast_Food
 		}
 
 
-		private int price;
+		private double price;
 
-		public int Price
+		public double Price
 		{
 			get { return price; }
 			set { price = value; }
