@@ -65,9 +65,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Order.cs" />
     <Compile Include="OrderView.xaml.cs">
       <DependentUpon>OrderView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -27,7 +27,7 @@ namespace Fast_Food
 
 		public Order()
 		{
-			Product product = new Product();
+			Product prouct = new Product();
 		}
 	}
 }

@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Product
+namespace Fast_Food
 {
-	public Product()
+	class Product
 	{
-        
-    }
+	}
 }
