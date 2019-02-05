@@ -26,7 +26,7 @@ namespace Fast_Food
 
         private void Btn_MakeOrder(object sender, RoutedEventArgs e)
         {
-
+            Order order = new Order();
         }
     }
 }
