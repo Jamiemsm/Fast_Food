@@ -8,9 +8,9 @@ namespace Fast_Food
 {
 	class Order
 	{
-		private Product product;
+		private List<Product> product;
 
-		public Product Product
+		public List<Product> Product
 		{
 			get { return product; }
 			set { product = value; }
@@ -27,7 +27,7 @@ namespace Fast_Food
 
 		public Order()
 		{
-			Product product = new Product();
+			List<Product> products = new List<Product>();
 		}
 	}
 }
